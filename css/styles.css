@@ -42,12 +42,13 @@ ol {
   line-height: 1.5;
 }
 
-.menu-nav-link:hover {
+.menu-nav-link,
+.menu-nav-link-studio:hover {
   color: #404bbf;
   letter-spacing: 0.02em;
 }
 
-.menu-nav-link .studio:active {
+.menu-nav-link-studio:active {
   color: ;
 }
 
