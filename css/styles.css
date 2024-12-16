@@ -26,19 +26,20 @@ ol {
   color: #4d5ae5;
 }
 
-.contact-info a {
+.contact-info-email,
+.contact-info-phone {
   font-style: normal;
   color: #434455;
 }
 
-.title h1 {
+.title-heading {
   color: white;
   background-color: #2e2f42;
   font-size: 56px;
   line-height: 60px;
 }
 
-.title button {
+.title-button {
   width: 169px;
   height: 56px;
   background-color: #4d5ae5;
@@ -51,7 +52,7 @@ ol {
   font-size: 20px;
 }
 
-.team li p,
-.portfolio li p {
+.team-role,
+.portfolio-text {
   color: #434455;
 }
