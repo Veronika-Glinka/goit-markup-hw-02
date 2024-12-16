@@ -69,6 +69,16 @@ ol {
   color: white;
 }
 
+/* portfolio */
+
+.portfolio-heading {
+  font-weight: bold;
+  size: 36px;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+
 .footer {
   background-color: #2e2f42;
 }
