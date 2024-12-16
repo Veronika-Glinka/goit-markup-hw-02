@@ -38,6 +38,19 @@ ol {
   color: #2e2f42;
 }
 
+.menu-nav-link {
+  line-height: 1.5;
+}
+
+.menu-nav-link:hover {
+  color: #404bbf;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav-link .studio:active {
+  color: ;
+}
+
 .contact-info {
   font-style: normal;
 }
