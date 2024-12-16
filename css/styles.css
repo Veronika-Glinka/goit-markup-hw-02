@@ -1,8 +1,17 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: white;
   letter-spacing: 2%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2e2f42;
 }
 
 a {
@@ -19,17 +28,18 @@ ol {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 3%;
-}
-
-.logo-web {
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.17;
   color: #4d5ae5;
 }
 
-.contact-info-email,
-.contact-info-phone {
+.logo-studio {
+  color: #2e2f42;
+}
+
+.contact-info {
   font-style: normal;
-  color: #434455;
 }
 
 .title-heading {
@@ -40,19 +50,7 @@ ol {
 }
 
 .title-button {
-  width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   border: none;
   color: white;
-  border-radius: 4px;
-}
-
-.values-heading {
-  font-size: 20px;
-}
-
-.team-role,
-.portfolio-text {
-  color: #434455;
 }
