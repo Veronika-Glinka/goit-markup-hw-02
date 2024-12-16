@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  background-color: white;
+  letter-spacing: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3%;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.contact-info a {
+  font-style: normal;
+  color: #434455;
+}
+
+.title h1 {
+  color: white;
+  background-color: #2e2f42;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.title button {
+  width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.values-heading {
+  font-size: 20px;
+}
+
+.team li p,
+.portfolio li p {
+  color: #434455;
+}
