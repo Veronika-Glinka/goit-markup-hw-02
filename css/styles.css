@@ -42,31 +42,45 @@ ol {
   line-height: 1.5;
 }
 
-.menu-nav-link,
+.menu-nav-link:hover,
 .menu-nav-link-studio:hover {
   color: #404bbf;
   letter-spacing: 0.02em;
 }
 
 .menu-nav-link-studio:active {
-  color: ;
+  text-decoration: underline;
+}
+
+.contact-info-email:hover,
+.contact-info-phone:hover {
+  color: #404bbf;
+  letter-spacing: 0.02em;
 }
 
 .contact-info {
   font-style: normal;
 }
 
+/* title */
+
 .title-heading {
   color: white;
   background-color: #2e2f42;
   font-size: 56px;
   line-height: 60px;
+  text-align: center;
 }
 
 .title-button {
   background-color: #4d5ae5;
   border: none;
   color: white;
+  cursor: pointer;
+}
+
+.title-button:hover {
+  background-color: #404bbf;
 }
 
 /* portfolio */
@@ -74,6 +88,19 @@ ol {
 .portfolio-heading {
   font-weight: bold;
   size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.portfolio-sub-heading {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.portfolio-text {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
