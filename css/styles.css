@@ -83,6 +83,30 @@ ol {
   background-color: #404bbf;
 }
 
+/* team */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-heading {
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-size: 36px;
+}
+
+.team-name {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.team-role {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* portfolio */
 
 .portfolio-heading {
