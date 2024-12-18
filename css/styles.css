@@ -49,6 +49,10 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.contact-info-link {
+  color: #434455;
+}
+
 .menu-nav-link:focus {
   color: #404bbf;
 }
@@ -71,12 +75,17 @@ ol {
 
 /* title */
 
-.title-heading {
-  color: white;
+.title {
   background-color: #2e2f42;
+}
+
+.title-heading {
+  line-height: 1.7;
+  color: white;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title-button {
@@ -84,12 +93,32 @@ ol {
   border: none;
   color: white;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .title-button:hover {
   background-color: #404bbf;
 }
 
+.title-button:focus {
+  background-color: #404bbf;
+}
+
+/* values */
+
+.values-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.values-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* team */
 
 .team {
@@ -101,6 +130,12 @@ ol {
   line-height: 1.11;
   font-size: 36px;
   text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.team-card {
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -123,12 +158,14 @@ ol {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-sub-heading {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  font-weight: 500;
 }
 
 .portfolio-text {
